@@ -29,3 +29,10 @@
 #     print('Билет счастливый')
 # else:
 #     print('Билет не счастливый')
+
+#Задача 4
+m,n,k = [int(input()) for i in range(3)]
+if (k%m==0 or k%n==0) and (k<m*n):
+    print('Yes')
+else:
+    print('NO')
