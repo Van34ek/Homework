@@ -11,3 +11,17 @@
 #     print(tails)
 # else:
 #     print(eagle)
+
+
+# x = int(input())
+# y = int(input())
+# for i in range(x):
+#     for j in range(y):
+#         if x == i + j and y == i * j:
+#             print(i,j)
+
+n = int(input())
+i = 0
+while 2 ** i <= n:
+    print(2 ** i)
+    i += 1
